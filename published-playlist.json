@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": "Jingle_Intro.mp4",
+      "type": "jingle",
+      "title": "Jingle_Intro",
+      "isAd": false
+    },
+    {
+      "id": "Jingle_Pr_MIABETO.mp4",
+      "type": "jingle",
+      "title": "Jingle_Pr_MIABETO",
+      "isAd": false
+    },
+    {
+      "id": "Basilique_Saint_Anne.mp4",
+      "type": "promos",
+      "title": "Basilique_Saint_Anne",
+      "isAd": false,
+      "duration": 158,
+      "synopsis": "Un monument au toit vert qui traverse le temps. Il trone dans le paysage de Poto poto a Brazzaville."
+    },
+    {
+      "id": "ACHILE_MOUEBO.mp4",
+      "type": "emissions",
+      "title": "Achile Mouebo",
+      "isAd": false,
+      "duration": 738,
+      "synopsis": "le crouneur de Pointe-noire chante les réalité de la vie. Avec sa guitare il offre dans ce programme un aperçu de son projet de maxi single à paraitre en septembre 2025.                                     Son crie de ralliement: \"minit' ikwa!\""
+    },
+    {
+      "id": "5_Gigas_Gypsie.mp4",
+      "type": "promos",
+      "title": "5 Gigas",
+      "isAd": false,
+      "duration": 83,
+      "synopsis": "Gypsie la tigresse du show présente les vertu d'une liqueur soignante qu'elle propose à ses client. Un breuvage chaud aux vertus étonnantes.                                                     Faite de racines mélangées, elles propose de guerir des maux..."
+    },
+    {
+      "id": "PaD_AIMER_LA_SOUFFRANCE.mp4",
+      "type": "documentaires",
+      "title": "Aimer la souffrance",
+      "isAd": false,
+      "duration": 675,
+      "synopsis": "Des jeunes congolaise s'adonnent à la pratique de la boxe pour occuper leur temps libre. Sous la rigueur de Maitre Gim, il se batisse l'espoir d'une carriere de professionnel."
+    },
+    {
+      "id": "Choeur_credo.mp4",
+      "type": "promos",
+      "title": "Choeur Credo",
+      "isAd": false,
+      "duration": 83,
+      "synopsis": "la musique entre armée et civils, un lien par une chorale dirigée par un cadre des rangs de la marine congolaise. Choeur Credo revisite les meilleures lignes des melodies congolaises et celles du monde."
+    },
+    {
+      "id": "HLFLUX Deep Green.mp4",
+      "type": "jingle",
+      "title": "HLFLUX Deep Green",
+      "isAd": false
+    },
+    {
+      "id": "LA_MOUSSE.mp4",
+      "type": "fictions",
+      "title": "La mousse",
+      "isAd": false,
+      "duration": 493,
+      "synopsis": "Sorel un mari pas peu fidele, met à la poubelle le matelas du lit conjugal pour cacher son forfait. Il ne sait pas que le matelas est la cache d'argent de son épouse."
+    },
+    {
+      "id": "L'Instemps_Jazz_Anniv_Gayelord.mp4",
+      "type": "reportages",
+      "title": "L'instemps jazz",
+      "isAd": false,
+      "duration": 526,
+      "synopsis": "Les musiciens de jazz font leur buzz tous les vendredis dans le site mytique de la détente. On y joue au plaisir des beufs et du repertoire savamment concocté par le collectif jazz de Brazzaville.    vendredi dernier était aussi l'anniversaire de la renversante Gaga..."
+    },
+    {
+      "id": "HLFLUX Red.mp4",
+      "type": "jingle",
+      "title": "HLFLUX Red",
+      "isAd": false
+    },
+    {
+      "id": "Pr Loubassou Sebast 1.mp4",
+      "type": "interviews",
+      "title": "Pr Loubassou Sebast 1",
+      "isAd": false
+    },
+    {
+      "id": "PaD_PROMO_PRINCE_TC.mp4",
+      "type": "promos",
+      "title": "Prince TC un talent caché",
+      "isAd": false,
+      "duration": 195,
+      "synopsis": "Le jeune TC Prince developpe son projet d'album. dans un studio de la place il élabore avec son equipe le plus beau fruit à offrir à ses mélomanes."
+    }
+  ],
+  "ads": [
+    {
+      "id": "SPOT_Brazza_Burger.mp4",
+      "title": "SPOT_Brazza_Burger",
+      "file": "SPOT_Brazza_Burger.mp4",
+      "duration": 0,
+      "date": "2025-06-19T23:45:14.387Z"
+    },
+    {
+      "id": "Spot_ayira_Couture.mp4",
+      "title": "Spot_ayira_Couture",
+      "file": "Spot_ayira_Couture.mp4",
+      "duration": 0,
+      "date": "2025-05-29T16:01:49.904Z"
+    }
+  ],
+  "adFrequency": "3",
+  "publishedAt": "2025-07-02T01:01:48.260Z"
+}

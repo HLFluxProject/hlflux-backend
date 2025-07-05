@@ -1,0 +1,84 @@
+{
+  "adFrequency": "3",
+  "items": [
+    {
+      "id": "Jingle_Intro.mp4",
+      "type": "jingle",
+      "title": "Jingle_Intro",
+      "isAd": false
+    },
+    {
+      "id": "Jingle_Pr_MIABETO.mp4",
+      "type": "jingle",
+      "title": "Jingle_Pr_MIABETO",
+      "isAd": false
+    },
+    {
+      "id": "Basilique_Saint_Anne.mp4",
+      "type": "promos",
+      "title": "Basilique_Saint_Anne",
+      "isAd": false
+    },
+    {
+      "id": "ACHILE_MOUEBO.mp4",
+      "type": "emissions",
+      "title": "Achile Mouebo",
+      "isAd": false
+    },
+    {
+      "id": "5_Gigas_Gypsie.mp4",
+      "type": "promos",
+      "title": "5 Gigas",
+      "isAd": false
+    },
+    {
+      "id": "PaD_AIMER_LA_SOUFFRANCE.mp4",
+      "type": "documentaires",
+      "title": "Aimer la souffrance",
+      "isAd": false
+    },
+    {
+      "id": "Choeur_credo.mp4",
+      "type": "promos",
+      "title": "Choeur Credo",
+      "isAd": false
+    },
+    {
+      "id": "HLFLUX Deep Green.mp4",
+      "type": "jingle",
+      "title": "HLFLUX Deep Green",
+      "isAd": false
+    },
+    {
+      "id": "LA_MOUSSE.mp4",
+      "type": "fictions",
+      "title": "La mousse",
+      "isAd": false
+    },
+    {
+      "id": "L'Instemps_Jazz_Anniv_Gayelord.mp4",
+      "type": "reportages",
+      "title": "L'instemps jazz",
+      "isAd": false
+    },
+    {
+      "id": "HLFLUX Red.mp4",
+      "type": "jingle",
+      "title": "HLFLUX Red",
+      "isAd": false
+    },
+    {
+      "id": "Pr Loubassou Sebast 1.mp4",
+      "type": "interviews",
+      "title": "Pr Loubassou Sebast 1",
+      "isAd": false
+    },
+    {
+      "id": "PaD_PROMO_PRINCE_TC.mp4",
+      "type": "promos",
+      "title": "Prince TC un talent caché",
+      "isAd": false
+    }
+  ],
+  "version": 2
+}
