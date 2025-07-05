@@ -299,7 +299,7 @@ const storage = multer.diskStorage({
           return cb(new Error('Type de média invalide'));
         }
     
-         Création du dossier si inexistant
+         // Création du dossier si inexistant
         if (!fs.existsSync(uploadPath)) {
           fs.mkdirSync(uploadPath, { recursive: true });
         }
