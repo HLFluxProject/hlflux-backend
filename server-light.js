@@ -17,7 +17,7 @@ const stripe = require('stripe')(process.env.STRIPE_KEY, {
   apiVersion: '2020-08-27',
   maxNetworkRetries: 2
 });
-const getVideoDuration = require('get-video-duration').getVideoDuration;
+//const getVideoDuration = require('get-video-duration').getVideoDuration;
 const multer = require('multer');
 const express = require('express');
 const fileUpload = require('express-fileupload');
