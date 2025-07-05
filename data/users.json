@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "email": "admin@hlflux.com",
+    "password": "$2a$10$3OVL1k7JSWSMltjnDarBwOERitL2YIbqqjO0Q4irgismUxeXHieEa",
+    "role": "admin",
+    "createdAt": "2025-06-25T19:44:18.000Z",
+    "balance": 550,
+    "transactions": [
+      {
+        "type": "theatre",
+        "amount": -150,
+        "currency": "XAF",
+        "date": "2025-06-27T13:43:35.060Z"
+      },
+      {
+        "type": "theatre",
+        "amount": -150,
+        "currency": "XAF",
+        "date": "2025-06-27T14:49:56.727Z"
+      },
+      {
+        "type": "theatre",
+        "amount": -150,
+        "currency": "XAF",
+        "date": "2025-06-27T14:52:08.044Z"
+      }
+    ]
+  }
+]
