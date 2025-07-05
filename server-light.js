@@ -18,7 +18,7 @@ const stripe = require('stripe')(process.env.STRIPE_KEY, {
   maxNetworkRetries: 2
 });
 //const getVideoDuration = require('get-video-duration').getVideoDuration;
-const multer = require('multer');
+// const multer = require('multer');
 const express = require('express');
 //const fileUpload = require('express-fileupload');
 //const multiparty = require('multiparty');
@@ -283,32 +283,32 @@ const rateLimit = (options) => {
 // CONFIGURATION MULTER (Conservée intacte)
 // ================================================
 
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
+//    const storage = multer.diskStorage({
+  //  destination: (req, file, cb) => {
         // On récupère le type depuis le champ 'type' du FormData
-        const type = req.body.type || req.headers['x-media-type'];
+     //   const type = req.body.type || req.headers['x-media-type'];
         
-        let uploadPath;
-        if (type === 'ad') {
-          uploadPath = path.join(PUBLIC_DIR, 'ads');
-        } else if (type === 'jingle') {
-          uploadPath = path.join(PUBLIC_DIR, 'jingles');
-        } else if (VALID_MEDIA_TYPES.includes(type)) {
-          uploadPath = path.join(PUBLIC_DIR, 'videos', type);
-        } else {
-          return cb(new Error('Type de média invalide'));
-        }
+     //   let uploadPath;
+     //   if (type === 'ad') {
+     //     uploadPath = path.join(PUBLIC_DIR, 'ads');
+     //   } else if (type === 'jingle') {
+     //     uploadPath = path.join(PUBLIC_DIR, 'jingles');
+     //   } else if (VALID_MEDIA_TYPES.includes(type)) {
+     //     uploadPath = path.join(PUBLIC_DIR, 'videos', type);
+     //   } else {
+     //     return cb(new Error('Type de média invalide'));
+     //   }
     
          // Création du dossier si inexistant
-        if (!fs.existsSync(uploadPath)) {
-          fs.mkdirSync(uploadPath, { recursive: true });
-        }
-        cb(null, uploadPath);
-      },
-      filename: (req, file, cb) => {
-        cb(null, file.originalname);
-      }
-});
+      //  if (!fs.existsSync(uploadPath)) {
+      //    fs.mkdirSync(uploadPath, { recursive: true });
+      //  }
+      //  cb(null, uploadPath);
+    //  },
+    //  filename: (req, file, cb) => {
+    //    cb(null, file.originalname);
+  //    }
+//  });
 
 
 const upload = multer({
