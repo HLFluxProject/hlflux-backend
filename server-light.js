@@ -18,7 +18,7 @@ const stripe = require('stripe')(process.env.STRIPE_KEY, {
   maxNetworkRetries: 2
 });
 //const getVideoDuration = require('get-video-duration').getVideoDuration;
-// const multer = require('multer');
+ const multer = require('multer');
 const express = require('express');
 //const fileUpload = require('express-fileupload');
 //const multiparty = require('multiparty');
@@ -311,25 +311,25 @@ const rateLimit = (options) => {
 //  });
 
 
-// const upload = multer({
-//  storage: multer.diskStorage({
-//    destination: (req, file, cb) => {
-//      const type = req.body.type;
-  //    let uploadPath = PUBLIC_DIR;
+ const upload = multer({
+  storage: multer.diskStorage({
+    destination: (req, file, cb) => {
+      const type = req.body.type;
+      let uploadPath = PUBLIC_DIR;
       
-  //    if (type === 'ad') uploadPath = path.join(PUBLIC_DIR, 'ads');
-  //    else if (type === 'jingle') uploadPath = path.join(PUBLIC_DIR, 'jingles');
-  //    else if (VALID_MEDIA_TYPES.includes(type)) uploadPath = path.join(PUBLIC_DIR, 'videos', type);
+      if (type === 'ad') uploadPath = path.join(PUBLIC_DIR, 'ads');
+      else if (type === 'jingle') uploadPath = path.join(PUBLIC_DIR, 'jingles');
+      else if (VALID_MEDIA_TYPES.includes(type)) uploadPath = path.join(PUBLIC_DIR, 'videos', type);
       
-  //    fs.mkdirSync(uploadPath, { recursive: true });
- //     cb(null, uploadPath);
- //   },
- //   filename: (req, file, cb) => {
- //     cb(null, file.originalname);
- //   }
-//  }),
-//  limits: { fileSize: MAX_FILE_SIZE }
- //    });
+      fs.mkdirSync(uploadPath, { recursive: true });
+      cb(null, uploadPath);
+    },
+    filename: (req, file, cb) => {
+      cb(null, file.originalname);
+    }
+  }),
+  limits: { fileSize: MAX_FILE_SIZE }
+     });
 
 function serveStaticFile(res, filePath) {
   const ext = path.extname(filePath).toLowerCase();
