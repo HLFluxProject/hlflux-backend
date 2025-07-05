@@ -18,7 +18,7 @@ const stripe = require('stripe')(process.env.STRIPE_KEY, {
   maxNetworkRetries: 2
 });
 //const getVideoDuration = require('get-video-duration').getVideoDuration;
-//const multer = require('multer');
+const multer = require('multer');
 const express = require('express');
 //const fileUpload = require('express-fileupload');
 //const multiparty = require('multiparty');
