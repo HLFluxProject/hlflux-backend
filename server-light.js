@@ -11,7 +11,7 @@ const { Buffer } = require('buffer');
 const { promisify } = require('util');
 
 // --- Third-party ---
-const jwt = require('jsonwebtoken');
+//const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const stripe = require('stripe')(process.env.STRIPE_KEY, {
   apiVersion: '2020-08-27',
@@ -24,8 +24,8 @@ const fileUpload = require('express-fileupload');
 const multiparty = require('multiparty');
 
 // --- Locaux ---
-const adSync = require('./utils/ad-sync');
-const synopsisEditor = require('./modules/synopsis-editor/editor');
+//const adSync = require('./utils/ad-sync');
+//const synopsisEditor = require('./modules/synopsis-editor/editor');
 
 // ================================================
 // CONFIGURATION CONSTANTES
