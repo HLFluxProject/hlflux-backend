@@ -3419,9 +3419,9 @@ app.use((err, req, res, next) => {
 // ================================================
 
 const startServer = async () => {
-    server.listen(PORT, () => {
-      console.log(`✅ HLFLUX WebTV Server en écoute sur http://localhost:${PORT}`);
-    });
+    server.listen(PORT, '0.0.0.0', () => {
+        console.log(`✅ HLFLUX WebTV Server en écoute sur http://0.0.0.0:${PORT}`);
+      });      
   
     try {
       await adSync.syncAds();
